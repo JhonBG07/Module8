@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Modulo8</string>
+    <string name="logo_desc">Logo app</string>
+    <string name="title">Petagram</string>
+    <string name="view_description">Pet Description</string>
+    <string name="like_btn">Like Button</string>
+    <string name="back_btn">Get back to the main Screen</string>
+    <string name="like_count">Like Count</string>
+    <string name="contact_menu">Contacto</string>
+    <string name="about_menu">Acerca de</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombre_hint">Nombre del usuario</string>
+    <string name="asunto">Asunto</string>
+    <string name="asunto_hint">Asunto del correo</string>
+    <string name="descripcion">Mensaje</string>
+    <string name="descripcion_hint">Mensaje del correo</string>
+    <string name="sendButton">Enviar</string>
+    <string name="author">Jhon Beltrán Gómez</string>
+    <string name="pet_name">Ezio Auditore</string>
+    <string name="bio">
+        Soy un desarrollador profesional de aplicaciones móviles
+        especializado en la creación de soluciones nativas para Android usando
+        Java y Android Studio. Con experiencia en el diseño de interfaces
+        intuitivas y funcionales, integración de bases de datos y optimización
+        del rendimiento, combinando creatividad y habilidad técnica para ofrecer
+        una aplicación de alta calidad.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

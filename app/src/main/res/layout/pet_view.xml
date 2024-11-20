@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/view_description"/>
+
+    <LinearLayout
+        android:id="@+id/likesBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/imageView">
+        <ToggleButton
+            android:id="@+id/likeBtn"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@drawable/hueso"
+            android:textOn=""
+            android:textOff=""
+            />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/petName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="20sp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/likesNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:text="10"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hueso_likes"
+            android:contentDescription="@string/like_count"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

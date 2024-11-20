@@ -1,0 +1,3 @@
+CREATE DATABASE mascotasdb_i2yi;
+
+CREATE TABLE mascota(id serial primary key, nombre varchar(50), imagen int, has_like boolean, num_likes int);
